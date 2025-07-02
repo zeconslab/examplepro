@@ -2,97 +2,33 @@
   "issues": [
     {
       "engineId": "eslint",
-      "ruleId": null,
+      "ruleId": "no-duplicate-tailwind-class-template/no-duplicate-tailwind-class-template",
       "severity": "MAJOR",
       "type": "BUG",
       "primaryLocation": {
-        "message": "Parsing error: Unexpected token :",
-        "filePath": "src/app\\app.config.ts",
-        "textRange": {
-          "startLine": 6,
-          "endLine": 6,
-          "startColumn": 23,
-          "endColumn": 24
-        }
-      }
-    },
-    {
-      "engineId": "eslint",
-      "ruleId": null,
-      "severity": "MAJOR",
-      "type": "BUG",
-      "primaryLocation": {
-        "message": "Parsing error: Unexpected token <",
+        "message": "Clases duplicadas detectadas: flex",
         "filePath": "src/app\\app.html",
         "textRange": {
-          "startLine": 1,
-          "endLine": 1,
-          "startColumn": 1,
-          "endColumn": 2
+          "startLine": 26,
+          "endLine": 26,
+          "startColumn": 14,
+          "endColumn": 60
         }
       }
     },
     {
       "engineId": "eslint",
-      "ruleId": null,
+      "ruleId": "no-duplicate-tailwind-class-template/no-duplicate-tailwind-class-template",
       "severity": "MAJOR",
       "type": "BUG",
       "primaryLocation": {
-        "message": "Parsing error: Unexpected token :",
-        "filePath": "src/app\\app.routes.ts",
+        "message": "Clases duplicadas detectadas: mt-2",
+        "filePath": "src/app\\app.html",
         "textRange": {
-          "startLine": 3,
-          "endLine": 3,
-          "startColumn": 20,
-          "endColumn": 21
-        }
-      }
-    },
-    {
-      "engineId": "eslint",
-      "ruleId": null,
-      "severity": "MAJOR",
-      "type": "BUG",
-      "primaryLocation": {
-        "message": "Parsing error: Unexpected token as",
-        "filePath": "src/app\\app.spec.ts",
-        "textRange": {
-          "startLine": 20,
-          "endLine": 20,
-          "startColumn": 44,
-          "endColumn": 45
-        }
-      }
-    },
-    {
-      "engineId": "eslint",
-      "ruleId": null,
-      "severity": "MAJOR",
-      "type": "BUG",
-      "primaryLocation": {
-        "message": "Parsing error: Unexpected character '@'",
-        "filePath": "src/app\\app.ts",
-        "textRange": {
-          "startLine": 4,
-          "endLine": 4,
-          "startColumn": 1,
-          "endColumn": 2
-        }
-      }
-    },
-    {
-      "engineId": "eslint",
-      "ruleId": null,
-      "severity": "MAJOR",
-      "type": "BUG",
-      "primaryLocation": {
-        "message": "Parsing error: Unexpected token <",
-        "filePath": "src/index.html",
-        "textRange": {
-          "startLine": 1,
-          "endLine": 1,
-          "startColumn": 1,
-          "endColumn": 2
+          "startLine": 32,
+          "endLine": 32,
+          "startColumn": 14,
+          "endColumn": 31
         }
       }
     }

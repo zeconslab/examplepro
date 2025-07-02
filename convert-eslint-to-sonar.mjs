@@ -11,7 +11,7 @@ raw.forEach(result => {
   const filePath = result.filePath.replace(/^.*?src[\\/]/, 'src/');
 
   result.messages.forEach(msg => {
-  if (!msg.message) return;
+  if (!msg.message || !msg.ruleId) return;
 
   sonarIssues.push({
     engineId: "eslint",
