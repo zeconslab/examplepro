@@ -2,5 +2,5 @@ projectKey=mi-app-angular
 serverUrl=http://localhost:9000
 serverVersion=25.6.0.109173
 dashboardUrl=http://localhost:9000/dashboard?id=mi-app-angular
-ceTaskId=ad2a848e-59bf-48de-a078-a89141b0ab5c
-ceTaskUrl=http://localhost:9000/api/ce/task?id=ad2a848e-59bf-48de-a078-a89141b0ab5c
+ceTaskId=772ce8e2-4f06-4dee-a31e-4a33f56e1977
+ceTaskUrl=http://localhost:9000/api/ce/task?id=772ce8e2-4f06-4dee-a31e-4a33f56e1977
